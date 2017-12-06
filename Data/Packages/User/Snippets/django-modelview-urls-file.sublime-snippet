@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+# coding=utf-8
+from django.conf.urls import url
+import views
+
+
+gud = {'http_method_names': ['get', 'put', 'delete']}
+gu = {'http_method_names': ['get', 'put']}
+gp = {'http_method_names': ['get', 'post']}
+g = {'http_method_names': ['get']}
+
+
+urlpatterns = [
+    # ${1}
+    url(r'^${2:objs}${3:/}(?P<obj_id>\d+)/(?P<action>[\w-]+)\$', views.${1:Model}View.as_view(**gu), name='gu-${2}'),
+    url(r'^${2}${3}(?P<obj_id>\d+)\$', views.${1}View.as_view(**gud), name='gud-${2}'),
+    url(r'^${2}${3}(?P<action>[\w-]+)\$', views.${1}View.as_view(**g), name='g-${2}'),
+    url(r'^${2}${3}${4}\$', views.${1}View.as_view(**gp), name='gp-${2}'),
+
+]
+
+]]></content>
+    <tabTrigger>djmu</tabTrigger>
+    <scope>source.python</scope>
+    <description>Django urls file(ModelView)</description>
+</snippet>

@@ -1,6 +1,6 @@
 {
-    // "tab_size": 4,
-    // "line_ending": "unix",
+    "tab_size": 4,
+    "line_ending": "unix",
     // "overlay_scroll_bars": "enabled",
     // "python_interpreter_path": "auto",
 

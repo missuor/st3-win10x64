@@ -1,0 +1,18 @@
+[
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true
+		},
+		"command": "move"
+	},
+    {
+        "args":
+        {
+            "extend": false,
+            "to": "eol"
+        },
+        "command": "move_to"
+    }
+]

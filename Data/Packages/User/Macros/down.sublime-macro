@@ -1,0 +1,10 @@
+[
+    {
+        "args":
+        {
+            "by": "lines",
+            "forward": true
+        },
+        "command": "move"
+    }
+]

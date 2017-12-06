@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ModelName}Form(forms.ModelForm):
+
+    class Meta:
+        model = models.${1:ModelName}
+        ${2:exclude} = ('${3:id}',)
+${4:}
+]]></content>
+    <tabTrigger>djf</tabTrigger>
+    <scope>source.python</scope>
+    <description>Django ModelForm code</description>
+</snippet>

@@ -1,0 +1,79 @@
+<snippet>
+    <content><![CDATA[
+class ${1:Model}View(View):
+
+    def dispatch(self, request, *args, **kwargs):
+        self.manager = ${4:OENetworkManager}(request)
+        return super(${1:Model}View, self).dispatch(request, *args, **kwargs)
+
+    def get(self, request, object_id=None, action=None):
+        objs = models.${1:Model}.query(request)
+        if request.session['logintype'] != 'admin':
+            objs = objs.filter(tenant_id=request.session['project_id'])
+        if object_id:
+            obj = objs.get(object_id=object_id).to_dict()
+            inner_obj = self.manager.${2:record}_get(object_id)
+            models.${1:Model}.update_info(obj, 'object_id', cache_confs=[
+                ('status', 'status', ''),
+            ], provide_objs={object_id: inner_obj})
+            return {'${2:record}': obj}
+
+        elif action == 'initial':
+            return {'${2:record}': forms.${1:Model}Form().instance}
+
+        else:
+            objs, page_info = paginator.paginator(request, objs)
+            obj_ids = list(objs.object_list.values_list('object_id', flat=True))
+            inner_objs_map = {}
+            if obj_ids:
+                inner_objs = self.manager.${2:record}_list(filter={'id': obj_ids}, fields=['id', 'status'])
+                inner_objs_map = {obj.id: obj for obj in inner_objs}
+                objs = [o.to_dict() for o in objs]
+                models.${1:Model}.update_info(objs, 'object_id', cache_confs=[
+                    ('status', 'status', ''),
+                ], provide_objs=inner_objs_map, debug=True)
+            return {'${2:record}s': objs, 'page_info': page_info}
+
+    @decorator.ajax(obj='${1:Model}')
+    @decorator.rating_limit
+    def post(self, request):
+        f = forms.${1:Model}Form(request, request.DATA.pop('${3:obj}'))
+        if f.is_valid():
+            obj = f.save()
+            return {'${2:record}': obj, 'message': _('Success add %(obj)s') % {'obj': obj}}
+
+        else:
+            return JsonResponse({'errors': f.errors}, 400)
+
+    @decorator.ajax(obj='${1:Model}')
+    def put(self, request, object_id, action=None):
+        obj = models.${1:Model}.objects.get(object_id=object_id)
+        if not action:
+            f = forms.${1:Model}Form(request, request.DATA.pop('${3:obj}'), instance=obj)
+            if f.is_valid():
+                obj = f.save()
+                return {'${2:record}': obj, 'message': _('Success update %(obj)s') % {'obj': obj}}
+
+            return JsonResponse({'errors': f.errors}, 400)
+
+    @decorator.ajax(data_required=False, obj='${1:Model}')
+    def delete(self, request, object_id):
+        obj = models.${1:Model}.objects.get(object_id=object_id)
+        try:
+            self.manager.${2:record}_delete(obj.object_id)
+        # except nexceptions.NotFound:
+        #     logger.debug('nexceptions.NotFound')
+        #     obj.delete()
+        except Exception, e:
+            logger.exception(str(e))
+            raise e
+        else:
+            obj.delete()
+
+        return JsonResponse(status=204)
+
+]]></content>
+    <tabTrigger>djov</tabTrigger>
+    <scope>source.python</scope>
+    <description>Django ModelView code</description>
+</snippet>

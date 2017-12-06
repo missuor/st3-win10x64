@@ -1,0 +1,63 @@
+<snippet>
+    <content><![CDATA[
+# coding=utf-8
+import logging
+from django.views.generic import View
+from django.utils.translation import ugettext_lazy as _
+from utils import decorator
+from utils.http import JsonResponse
+from utils.paginator import paginator
+import models
+import forms
+
+logger = logging.getLogger(__name__)
+
+
+class ${1:Model}View(View):
+
+    def get(self, request, obj_id=None, action=None):
+        objs = models.${1:Model}.objects.all()
+        if obj_id:
+            obj = models.${1:Model}.objects.get(pk=obj_id)
+            return {'${2:record}': obj}
+
+        elif action == 'initial':
+            return {'${2:record}': forms.${1:Model}Form().instance}
+
+        else:
+            objs, page_info = paginator(request, objs)
+            return {'${2:record}s': objs, 'page_info': page_info}
+
+    @decorator.ajax(obj='${1:Model}')
+    def post(self, request):
+        f = forms.${1:Model}Form(request.DATA.pop('${3:obj}'))
+        if f.is_valid():
+            obj = f.save()
+            return {'${2:record}': obj, 'message': _('Success add %(obj)s' % {'obj': obj})}
+
+        else:
+            return JsonResponse({'errors': f.errors}, 400)
+
+    @decorator.ajax(obj='${1:Model}')
+    def put(self, request, obj_id, action=None):
+        obj = models.${1:Model}.objects.get(pk=obj_id)
+        if not action:
+            f = forms.${1:Model}Form(request.DATA.pop('${3:obj}'), instance=obj)
+            if f.is_valid():
+                obj = f.save()
+                return {'${2:record}': obj, 'message': _('Success update %(obj)s' % {'obj': obj})}
+
+            return JsonResponse({'errors': f.errors}, 400)
+
+    @decorator.ajax(data_required=False, obj='${1:Model}')
+    def delete(self, request, obj_id):
+        obj = models.${1:Model}.objects.get(pk=obj_id)
+        obj.delete()
+        return JsonResponse(status=204)
+
+
+]]></content>
+    <tabTrigger>djmv</tabTrigger>
+    <scope>source.python</scope>
+    <description>Django ModelView file</description>
+</snippet>

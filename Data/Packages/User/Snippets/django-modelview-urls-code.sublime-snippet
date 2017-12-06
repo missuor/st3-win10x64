@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+# ${1:Model}
+url(r'^${2:objs}${3:/}act/(?P<action>[\w-]+)\$', views.${1:Model}View.as_view(**g), name='g-${2}'),
+url(r'^${2}${3}(?P<obj_id>${4:\d+})/(?P<action>[\w-]+)\$', views.${1}View.as_view(**gu), name='gu-${2}'),
+url(r'^${2}${3}(?P<obj_id>${4})\$', views.${1}View.as_view(**gud), name='gud-${2}'),
+url(r'^${2}${3}${5}\$', views.${1}View.as_view(**gp), name='gp-${2}'),
+
+]]></content>
+    <tabTrigger>djmu</tabTrigger>
+    <scope>source.python</scope>
+    <description>Django urls code(ModelView)</description>
+</snippet>
