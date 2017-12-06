@@ -1,0 +1,371 @@
+DPI scale: 1
+startup, version: 3143 windows x64 channel: stable
+executable: /D/Program Files/Sublime Text Build 3143 x64/sublime_text.exe
+working dir: /D/Program Files/Sublime Text Build 3143 x64
+packages path: /D/Program Files/Sublime Text Build 3143 x64/Data/Packages
+state path: /D/Program Files/Sublime Text Build 3143 x64/Data/Local
+zip path: /D/Program Files/Sublime Text Build 3143 x64/Packages
+zip path: /D/Program Files/Sublime Text Build 3143 x64/Data/Installed Packages
+ignored_packages: ["Vintage"]
+generating syntax summary
+generating meta info summary
+pre session restore time: 1.06577
+startup time: 1.14677
+first paint time: 1.14877
+reloading plugin Default.auto_indent_tag
+reloading plugin Default.block
+reloading plugin Default.comment
+reloading plugin Default.convert_syntax
+reloading plugin Default.copy_path
+reloading plugin Default.delete_word
+reloading plugin Default.detect_indentation
+reloading plugin Default.duplicate_line
+reloading plugin Default.echo
+reloading plugin Default.exec
+reloading plugin Default.fold
+reloading plugin Default.font
+reloading plugin Default.goto_line
+reloading plugin Default.history_list
+reloading plugin Default.indentation
+reloading plugin Default.install_package_control
+reloading plugin Default.kill_ring
+reloading plugin Default.mark
+reloading plugin Default.new_templates
+reloading plugin Default.open_context_url
+reloading plugin Default.open_in_browser
+reloading plugin Default.pane
+reloading plugin Default.paragraph
+reloading plugin Default.paste_from_history
+reloading plugin Default.profile
+reloading plugin Default.quick_panel
+reloading plugin Default.run_syntax_tests
+reloading plugin Default.save_on_focus_lost
+reloading plugin Default.scroll
+reloading plugin Default.set_unsaved_view_name
+reloading plugin Default.settings
+reloading plugin Default.show_scope_name
+reloading plugin Default.side_bar
+reloading plugin Default.sort
+reloading plugin Default.swap_line
+reloading plugin Default.switch_file
+reloading plugin Default.symbol
+reloading plugin Default.transform
+reloading plugin Default.transpose
+reloading plugin Default.trim_trailing_white_space
+reloading plugin Default.ui
+reloading plugin CSS.css_completions
+reloading plugin Diff.diff
+reloading plugin HTML.encode_html_entities
+reloading plugin HTML.html_completions
+plugins loaded
+reloading plugin Package Control.1_reloader
+reloading plugin Package Control.2_bootstrap
+reloading plugin Package Control.Package Control
+Package Control: Not running package cleanup since bootstrapping is not yet complete
+reloading settings Packages/Package Control/Package Control.sublime-settings
+reloading plugin 0_package_control_loader.00-package_control
+reloading settings Packages/User/Package Control.sublime-settings
+Unable to open /D/Program Files/Sublime Text Build 3143 x64/Data/Packages/Package Control/Package Control.sublime-settings
+ignored packages updated to: ["IMESupport", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin IMESupport.imesupportplugin
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["ChineseLocalizations", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin ChineseLocalizations.Localization
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading plugin Default.auto_indent_tag
+reloading plugin Default.block
+reloading plugin Default.comment
+reloading plugin Default.convert_syntax
+reloading plugin Default.copy_path
+reloading plugin Default.delete_word
+reloading plugin Default.detect_indentation
+reloading plugin Default.duplicate_line
+reloading plugin Default.echo
+reloading plugin Default.exec
+reloading plugin Default.fold
+reloading plugin Default.font
+reloading plugin Default.goto_line
+reloading plugin Default.history_list
+reloading plugin Default.indentation
+reloading plugin Default.install_package_control
+reloading plugin Default.kill_ring
+reloading plugin Default.mark
+reloading settings Packages/Default/Minimap.sublime-settings
+reloading plugin Default.new_templates
+reloading plugin Default.open_context_url
+reloading plugin Default.open_in_browser
+reloading plugin Default.pane
+reloading plugin Default.paragraph
+reloading plugin Default.paste_from_history
+reloading settings Packages/Default/Preferences (Windows).sublime-settings
+reloading settings Packages/Default/Preferences.sublime-settings
+reloading plugin Default.profile
+reloading plugin Default.quick_panel
+reloading plugin Default.run_syntax_tests
+reloading plugin Default.save_on_focus_lost
+reloading plugin Default.scroll
+reloading plugin Default.set_unsaved_view_name
+reloading plugin Default.settings
+reloading plugin Default.show_scope_name
+reloading plugin Default.side_bar
+reloading plugin Default.sort
+reloading plugin Default.swap_line
+reloading plugin Default.switch_file
+reloading plugin Default.symbol
+reloading plugin Default.transform
+reloading plugin Default.transpose
+reloading plugin Default.trim_trailing_white_space
+reloading plugin Default.ui
+reloading settings Packages/Default/Widget.sublime-settings
+generating meta info summary
+reloading settings Packages/User/Localization.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Generic Config", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+generating syntax summary
+generating meta info summary
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Modific", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin Modific.Modific
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["GitGutter", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+Package Control: The dependency 'markupsafe' is not currently installed; installing...
+Package Control: The dependency 'markupsafe' has successfully been installed or updated
+Package Control: The dependency 'mdpopups' is not currently installed; installing...
+Package Control: The dependency 'mdpopups' has successfully been installed or updated
+Package Control: The dependency 'pygments' is not currently installed; installing...
+Package Control: The dependency 'pygments' has successfully been installed or updated
+Package Control: The dependency 'pymdownx' is not currently installed; installing...
+Package Control: The dependency 'pymdownx' has successfully been installed or updated
+Package Control: The dependency 'python-jinja2' is not currently installed; installing...
+Package Control: The dependency 'python-jinja2' has successfully been installed or updated
+Package Control: The dependency 'python-markdown' is not currently installed; installing...
+Package Control: The dependency 'python-markdown' has successfully been installed or updated
+Package Control: The dependency 'pyyaml' is not currently installed; installing...
+Package Control: The dependency 'pyyaml' has successfully been installed or updated
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin GitGutter.plugin
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Python PEP8 Autoformat", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin Python PEP8 Autoformat.pep8_autoformat
+Included directory to sys.path : ['D:\\Program Files\\Sublime Text Build 3143 x64\\Data\\Packages\\Python PEP8 Autoformat\\libs', 'D:\\Program Files\\Sublime Text Build 3143 x64\\Data\\Packages\\Python PEP8 Autoformat\\libs\\py33']
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["HTML-CSS-JS Prettify", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin HTML-CSS-JS Prettify.HTMLPrettify
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["SublimeLinter", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin SublimeLinter.commands
+reloading plugin SublimeLinter.sublimelinter
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["SublimeLinter-flake8", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin SublimeLinter-flake8.linter
+SublimeLinter: flake8 linter reloaded 
+reloading plugin SublimeLinter-flake8.util
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Emmet", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin Emmet.emmet-plugin
+generating syntax summary
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+PyV8: Creating new thread
+Emmet: Creating thread
+Emmet: Loading https://api.github.com/repos/emmetio/pyv8-binaries/contents
+reloading settings Packages/User/Preferences.sublime-settings
+Emmet: Loading PyV8 binary from https://raw.github.com/emmetio/pyv8-binaries/master/pyv8-win64-p3.zip
+ignored packages updated to: ["SideBarEnhancements", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin SideBarEnhancements.SideBar
+reloading plugin SideBarEnhancements.SideBarAPI
+reloading plugin SideBarEnhancements.SideBarDefaultDisable
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Sync Settings", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+Package Control: The dependency 'requests' is not currently installed; installing...
+Package Control: The dependency 'requests' has successfully been installed or updated
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin Sync Settings.SyncSettings
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+recreating index
+indexing [job 1]: no files were indexed out of the 4057 queued, abandoning crawl
+ignored packages updated to: ["Boxy Theme", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+Traceback (most recent call last):
+  File "D:\Program Files\Sublime Text Build 3143 x64\sublime_plugin.py", line 389, in run_callback
+    expr()
+  File "D:\Program Files\Sublime Text Build 3143 x64\sublime_plugin.py", line 505, in <lambda>
+    run_callback('on_selection_modified', callback, lambda: callback.on_selection_modified(v))
+  File "D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\IMESupport\imesupport\sublime_utility.py", line 14, in _f
+    f(self, view, *args, **kwargs)
+  File "D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\IMESupport\imesupportplugin.py", line 498, in on_selection_modified
+    self.update(view)
+  File "D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\IMESupport\imesupportplugin.py", line 519, in update
+    pos = self.layouts[id].calc_cursor_position(view, view.sel()[0].a)
+  File "D:\Program Files\Sublime Text Build 3143 x64\sublime.py", line 641, in __getitem__
+    raise IndexError()
+IndexError
+ignored packages updated to: ["Vintage"]
+reloading plugin Boxy Theme.BT
+reloading plugin Boxy Theme.Icons
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+indexing [job 16]: no files were indexed out of the 2 queued, abandoning crawl
+Traceback (most recent call last):
+  File "D:\Program Files\Sublime Text Build 3143 x64\sublime_plugin.py", line 389, in run_callback
+    expr()
+  File "D:\Program Files\Sublime Text Build 3143 x64\sublime_plugin.py", line 505, in <lambda>
+    run_callback('on_selection_modified', callback, lambda: callback.on_selection_modified(v))
+  File "D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\IMESupport\imesupport\sublime_utility.py", line 14, in _f
+    f(self, view, *args, **kwargs)
+  File "D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\IMESupport\imesupportplugin.py", line 498, in on_selection_modified
+    self.update(view)
+  File "D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\IMESupport\imesupportplugin.py", line 519, in update
+    pos = self.layouts[id].calc_cursor_position(view, view.sel()[0].a)
+  File "D:\Program Files\Sublime Text Build 3143 x64\sublime.py", line 641, in __getitem__
+    raise IndexError()
+IndexError
+ignored packages updated to: ["A File Icon", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin A File Icon.A File Icon
+generating meta info summary
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/SublimeLinter.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+
+***
+A File Icon: Please restart Sublime Text for the applied icons to take effect ...
+***
+
+generating syntax summary
+ignored packages updated to: ["RestructuredText Improved", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["Vintage"]
+reloading plugin RestructuredText Improved.RestructuredText Improved
+user_preferences_file: D:\Program Files\Sublime Text Build 3143 x64\Data\Packages\User\Preferences.sublime-settings
+s: {
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
+
+generating syntax summary
+generating meta info summary
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Vintage", "RestructuredText"]
+generating syntax summary
+generating meta info summary
+reloading settings Packages/User/Preferences.sublime-settings
+ignored packages updated to: ["Restructured Text (RST) Snippets", "RestructuredText", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["RestructuredText", "Vintage"]
+reloading plugin Restructured Text (RST) Snippets.footnotes
+reloading plugin Restructured Text (RST) Snippets.headers
+reloading plugin Restructured Text (RST) Snippets.helpers
+reloading plugin Restructured Text (RST) Snippets.indent_list_item
+reloading plugin Restructured Text (RST) Snippets.lists
+reloading plugin Restructured Text (RST) Snippets.render
+reloading plugin Restructured Text (RST) Snippets.simpleformat
+reloading plugin Restructured Text (RST) Snippets.simpletable
+reloading plugin Restructured Text (RST) Snippets.tables
+generating meta info summary
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+indexing [job 41]: no files were indexed out of the 125 queued, abandoning crawl
+ignored packages updated to: ["CTags", "RestructuredText", "Vintage"]
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+Package Control: Error parsing messages.json for CTags
+reloading settings Packages/User/Package Control.sublime-settings
+ignored packages updated to: ["RestructuredText", "Vintage"]
+reloading plugin CTags.ctags
+reloading plugin CTags.ctagsplugin
+reloading plugin CTags.test_ctags
+reloading plugin CTags.test_ctagsplugin
+reloading settings Packages/User/Package Control.sublime-settings
+reloading settings Packages/User/Preferences.sublime-settings
+indexing [job 45]: no files were indexed out of the 3 queued, abandoning crawl
+reloading settings Packages/User/Preferences.sublime-settings
