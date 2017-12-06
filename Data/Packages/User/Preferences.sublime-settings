@@ -1,9 +1,51 @@
 {
-	"update_check": false,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"ignored_packages":
-	[
-		"RestructuredText",
-		"Vintage"
-	]
+    // "tab_size": 4,
+    // "line_ending": "unix",
+    // "overlay_scroll_bars": "enabled",
+    // "python_interpreter_path": "auto",
+
+    "bold_folder_labels": true,
+    "caret_extra_bottom": 1,
+    "caret_extra_top": 1,
+    "caret_extra_width": 1,
+    "caret_style": "blink",
+    "default_line_ending": "unix", // 'system' (whatever the OS uses), 'windows' (CRLF) and 'unix' (LF only).
+    "ensure_newline_at_eof_on_save": true,
+    "font_size": 13,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "show_line_endings": true,
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "margin": 2,
+
+    "show_encoding": true,
+    "show_tab_close_buttons": false,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "update_check": false,
+
+    "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+    "theme": "Boxy Monokai.sublime-theme",
+    "theme_tab_selected_underlined": true, // Box Theme
+
+    // Package Control
+    "ignored_packages": [
+        "ActionScript", "AppleScript", "ASP", "C#", "C++", "Clojure", "D", "Erlang", "Graphviz", "Groovy",
+        "Haskell", "Java", "Lisp", "Lua", "Matlab", "Objective-C", "OCaml", "Pascal", "Perl",
+        "RestructuredText", "Rust", "Scala", "TCL", "Textile",
+
+        "Vintage" // Default
+    ],
+
+
+    "file_exclude_patterns": [
+        "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb",
+        "*.sdf", "*.suo", "*.pdb", "*.idb", "*.class", "*.psd", "*.db", "*.sublime-workspace", ".DS_Store",
+
+        "*.mo", // ugettext
+        ".tags", ".tags_sorted_by_file" // ctags
+    ],
+
+    "indent_guide_options": ["draw_normal", "draw_active"],
 }

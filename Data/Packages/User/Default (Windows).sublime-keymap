@@ -1,0 +1,36 @@
+[
+    { "keys": ["alt+a"], "command": "toggle_side_bar" }, // "ctrl+k", "ctrl+b"
+    { "keys": ["ctrl+u"], "command": "upper_case" }, // "ctrl+k", "ctrl+u"
+    { "keys": ["ctrl+shift+u"], "command": "lower_case" }, // "ctrl+k", "ctrl+l"
+    { "keys": ["ctrl+d"], "command": "duplicate_line" }, // "ctrl+shift+d"
+    { "keys": ["ctrl+shift+d"], "command": "find_under_expand" }, // "ctrl+d"
+    { "keys": ["ctrl+shift+alt+d"], "command": "find_under_expand_skip" }, // "ctrl+k", "ctrl+d"
+    { "keys": ["alt+1"], "command": "fold_by_level", "args": {"level": 1} }, // "ctrl+k", "ctrl+1"
+    { "keys": ["alt+2"], "command": "fold_by_level", "args": {"level": 2} }, // "ctrl+k", "ctrl+2"
+    { "keys": ["alt+3"], "command": "fold_by_level", "args": {"level": 3} }, // "ctrl+k", "ctrl+3"
+    { "keys": ["alt+4"], "command": "fold_by_level", "args": {"level": 4} }, // "ctrl+k", "ctrl+4"
+    { "keys": ["alt+5"], "command": "fold_by_level", "args": {"level": 5} }, // "ctrl+k", "ctrl+5"
+    { "keys": ["alt+6"], "command": "fold_by_level", "args": {"level": 6} }, // "ctrl+k", "ctrl+6"
+    { "keys": ["alt+7"], "command": "fold_by_level", "args": {"level": 7} }, // "ctrl+k", "ctrl+7"
+    { "keys": ["alt+8"], "command": "fold_by_level", "args": {"level": 8} }, // "ctrl+k", "ctrl+8"
+    { "keys": ["alt+9"], "command": "fold_by_level", "args": {"level": 9} }, // "ctrl+k", "ctrl+9"
+    { "keys": ["alt+`"], "command": "unfold_all" }, // "ctrl+k", "ctrl+0" // "ctrl+k", "ctrl+j"
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "fold_tag_attributes" },
+    { "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": false } }, // "ctrl+/"
+    { "keys": ["ctrl+w"], "command": "close_file" },
+
+    // Side Bar
+    { "keys": ["ctrl+shift+c"], "command": "copy_path" },
+
+    // Macros
+    { "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file":"Packages/User/Macros/endofline.sublime-macro"}},
+    { "keys": ["ctrl+shift+'"], "command": "run_macro_file", "args": {"file":"Packages/User/Macros/endofnextline.sublime-macro"}},
+    { "keys": ["ctrl+shift+h"], "command": "run_macro_file", "args": {"file":"Packages/User/Macros/left.sublime-macro"}},
+    { "keys": ["ctrl+shift+l"], "command": "run_macro_file", "args": {"file":"Packages/User/Macros/right.sublime-macro"}},
+    { "keys": ["ctrl+shift+k"], "command": "run_macro_file", "args": {"file":"Packages/User/Macros/up.sublime-macro"}},
+    { "keys": ["ctrl+shift+j"], "command": "run_macro_file", "args": {"file":"Packages/User/Macros/down.sublime-macro"}},
+
+    { "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+
+    { "keys": ["ctrl+shift+h"], "command": "translate" },
+]

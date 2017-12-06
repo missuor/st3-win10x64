@@ -1,0 +1,861 @@
+[
+    // {
+    //     "caption": "Python PEP8 Autoformat",
+    //     "children": [
+    //     {
+    //         "caption": "ReFormat file",
+    //         "command": "pep8_autoformat"
+    //     }]
+    // },
+
+    // {
+    //     "caption": "从项目中删除文件夹",
+    //     "command": "remove_folder",
+    //     "args":
+    //     {
+    //         "dirs": []
+    //     }
+    // },
+    {
+        "caption": "重建 Tags", // CTags: Rebuild Tags
+        "command": "rebuild_tags",
+        "args":
+        {
+            "dirs": [],
+            "files": []
+        }
+    },
+
+    // {
+    //     "caption": "aaaaa_side_bar", // aaaaa_side_bar
+    //     "id": "aaaaa_side_bar",
+    //     "command": "aaaaa_side_bar",
+    //     "args":
+    //     {
+    //         "paths": []
+    //     }
+    // },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-start-separator"
+    // },
+    {
+        "caption": "新建文件", // New File…
+        "id": "side-bar-new-file",
+        "command": "side_bar_new_file",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "新建文件夹", // New Folder…
+        "id": "side-bar-new-directory",
+        "command": "side_bar_new_directory",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-new-separator"
+    // },
+
+    {
+        "caption": "编辑", // Edit
+        "id": "side-bar-edit",
+        "command": "side_bar_edit",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "在右边窗口编辑", // Edit to Right
+        "id": "side-bar-edit-to-right",
+        "command": "side_bar_edit_to_right",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "打开 / 运行", // Open / Run
+        "id": "side-bar-open",
+        "command": "side_bar_open",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "在浏览器中打开", // Open In Browser
+    //     "id": "side-bar-open-in-browser",
+    //     "children": [
+    //         {
+    //             "caption": "Default", // Default
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": []
+    //             }
+    //         },
+    //         {
+    //             "caption": "-"
+    //         },
+    //         {
+    //             "caption": "Firefox", // Firefox
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "firefox"
+    //             }
+    //         },
+    //         {
+    //             "caption": "-"
+    //         },
+    //         {
+    //             "caption": "Chromium", // Chromium
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "chromium"
+    //             }
+    //         },
+    //         {
+    //             "caption": "Chrome", // Chrome
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "chrome"
+    //             }
+    //         },
+    //         {
+    //             "caption": "Canary", // Canary
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "canary"
+    //             }
+    //         },
+    //         {
+    //             "caption": "-"
+    //         },
+    //         {
+    //             "caption": "Opera", // Opera
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "opera"
+    //             }
+    //         },
+    //         {
+    //             "caption": "Safari", // Safari
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "safari"
+    //             }
+    //         },
+    //         {
+    //             "caption": "-"
+    //         },
+    //         {
+    //             "caption": "Internet Explorer", // Internet Explorer
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "ie"
+    //             }
+    //         },
+    //         {
+    //             "caption": "Edge", // Edge
+    //             "command": "side_bar_open_in_browser",
+    //             "args": {
+    //                 "paths": [],
+    //                 "type": "testing",
+    //                 "browser": "edge"
+    //             }
+    //         },
+    //         {
+    //             "caption": "-"
+    //         },
+    //         {
+    //             "caption": "Open In All Browsers", // Open In All Browsers
+    //             "command": "side_bar_open_browsers"
+    //         }
+    //     ]
+    // },
+    {
+        "caption": "新窗口中打开", // Open In New Window
+        "id": "side-bar-open-in-new-window",
+        "command": "side_bar_open_in_new_window",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "Open With Finder", // Open With Finder
+    //     "id": "side-bar-open-with-finde",
+    //     "command": "side_bar_open_with_finder",
+    //     "args":
+    //     {
+    //         "paths": []
+    //     }
+    // },
+    // {
+    //     "caption": "在X中打开", // Open With
+    //     "id": "side-bar-files-open-with",
+    //     "args":
+    //     {
+    //         "extensions": "disabled"
+    //     },
+    //     "children": [
+
+    //         {
+    //             "caption": "-",
+    //             "id": "side-bar-files-open-with-edit-application-separator"
+    //         },
+    //         {
+    //             "caption": "Edit Applications…", // Edit Applications…
+    //             "id": "side-bar-files-open-with-edit-applications",
+    //             "command": "side_bar_files_open_with_edit_applications",
+    //             "args":
+    //             {
+    //                 "paths": []
+    //             }
+    //         },
+    //         {
+    //             "caption": "-",
+    //             "id": "side-bar-files-open-with-edit-applications-separator"
+    //         }
+    //     ]
+    // },
+    {
+        "caption": "打开所在文件夹", // Reveal
+        "id": "side-bar-reveal",
+        "command": "side_bar_reveal",
+        "args":
+        {
+            "paths": []
+        }
+    },
+
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-edit-open-separator"
+    // },
+
+    {
+        "caption": "查找和替换", // Find & Replace…
+        "id": "side-bar-find-selected",
+        "command": "side_bar_find_in_selected",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "文件搜索", // Find Files Named…
+    //     "id": "side-bar-find-files",
+    //     "command": "side_bar_find_files_path_containing",
+    //     "args":
+    //     {
+    //         "paths": []
+    //     }
+    // },
+    {
+        "caption": "高级查找", // Find Advanced
+        "id": "side-bar-find-advanced",
+        "children": [
+            {
+                "caption": "在父文件夹中查找", // In Parent Folder…
+                "id": "side-bar-find-parent",
+                "command": "side_bar_find_in_parent",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-find-parent-separator"
+            // },
+            {
+                "caption": "在项目中查找", // In Project…
+                "id": "side-bar-find-in-project",
+                "command": "side_bar_find_in_project",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            {
+                "caption": "在项目文件夹中查找", // In Project Folder…
+                "id": "side-bar-find-project-folder",
+                "command": "side_bar_find_in_project_folder",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "在项目父文件夹中查抄", // In Project Folders…
+            //     "id": "side-bar-find-project-folders",
+            //     "command": "side_bar_find_in_project_folders"
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-find-project-separator"
+            // },
+            {
+                "caption": "在该类型的文件中查找", // In Project Folders…
+                "id": "side-bar-find-in-files-with-extension",
+                "command": "side_bar_find_in_files_with_extension",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "不知道这个怎么用", // In Paths Containing…
+            //     "id": "side-bar-find-files-path-containing",
+            //     "command": "side_bar_find_files_path_containing",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-mass-rename-separator"
+            // },
+            {
+                "caption": "批量重命名", // Mass Rename Selection…
+                "id": "side-bar-mass-rename",
+                "command": "side_bar_mass_rename",
+                "args":
+                {
+                    "paths": []
+                }
+            }
+
+        ]
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-find-separator"
+    // },
+    {
+        "caption": "剪切", // Cut
+        "id": "side-bar-clip-cut",
+        "command": "side_bar_cut",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "复制", // Copy
+        "id": "side-bar-clip-copy",
+        "command": "side_bar_copy",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "复制文件名", // Copy Name
+        "id": "side-bar-clip-copy-name",
+        "command": "side_bar_copy_name",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "复制文件路径", // Copy Path
+        "id": "side-bar-clip-copy-path",
+        "command": "side_bar_copy_path_absolute_from_project_encoded",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "复制文件路径(Encoded)", // Copy Path (Windows)
+    //     "id": "side-bar-clip-copy-path-windows",
+    //     "command": "side_bar_copy_path_absolute_from_project_encoded_windows",
+    //     "args":
+    //     {
+    //         "paths": []
+    //     }
+    // },
+    {
+        "caption": "复制目录路径", // Copy Dir Path
+        "id": "side-bar-clip-copy-dir-path",
+        "command": "side_bar_copy_dir_path",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "文本复制", // Copy as Text
+        "id": "side-bar-clip-copy-as",
+        "children": [
+            // {
+            //     "caption": "文件名(Encoded)", // Relative Path From View Encoded
+            //     "id": "side-bar-clip-copy-path-relative-from-view-encoded",
+            //     "command": "side_bar_copy_path_relative_from_view_encoded",
+            //     "args":
+            //     {
+            //         "paths": "disabled"
+            //         // "paths": []
+            //     }
+            // },
+            {
+                "caption": "文件名", // Relative Path From View
+                "id": "side-bar-clip-copy-path-relative-from-view",
+                "command": "side_bar_copy_path_relative_from_view",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-path-relative-from-view-separator"
+            // },
+
+            // {
+            //     "caption": "项目文件路径(Encoded)", // Relative Path From Project Encoded
+            //     "id": "side-bar-clip-copy-path-relative-from-project-encoded",
+            //     "command": "side_bar_copy_path_relative_from_project_encoded",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "项目文件路径", // Relative Path From Project
+            //     "id": "side-bar-clip-copy-path-relative-from-project",
+            //     "command": "side_bar_copy_path_relative_from_project",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-path-relative-from-project-separator"
+            // },
+
+            // {
+            //     "caption": "项目文件绝对路径(Encoded)", // Absolute Path From Project Encoded
+            //     "id": "side-bar-clip-copy-path-absolute-from-project-encoded",
+            //     "command": "side_bar_copy_path_absolute_from_project_encoded",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "项目文件绝对路径", // Absolute Path From Project
+            //     "id": "side-bar-clip-copy-path-absolute-from-project",
+            //     "command": "side_bar_copy_path_absolute_from_project",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-path-absolute-from-project-separator"
+            // },
+
+            {
+                "caption": "浏览器访问地址", // Path as URI
+                "id": "side-bar-clip-copy-path-encoded",
+                "command": "side_bar_copy_path_encoded",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            {
+                "caption": "文件夹路径", // Path
+                "id": "side-bar-clip-copy-path",
+                "command": "side_bar_copy_path",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "文件夹路径(Quoted)", // Path Quoted
+            //     "id": "side-bar-clip-copy-path-quoted",
+            //     "command": "side_bar_copy_path_quoted",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-path-separator"
+            // },
+            // {
+            //     "caption": "文件名(Encoded)", // Name Encoded
+            //     "id": "side-bar-clip-copy-name-encoded",
+            //     "command": "side_bar_copy_name_encoded",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-name-encoded-separator"
+            // },
+
+            // {
+            //     "caption": "URL", // URL
+            //     "id": "side-bar-clip-copy-url",
+            //     "command": "side_bar_copy_url",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "URL(Decoded)", // URL Decoded
+            //     "id": "side-bar-clip-copy-url-decoded",
+            //     "command": "side_bar_copy_url_decoded",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-url-separator"
+            // },
+
+            // {
+            //     "caption": "复制为网页标签 <a>", // Tag a
+            //     "id": "side-bar-clip-copy-tag-a",
+            //     "command": "side_bar_copy_tag_ahref",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "复制为网页标签 <img>", // Tag img
+            //     "id": "side-bar-clip-copy-tag-img",
+            //     "command": "side_bar_copy_tag_img",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "复制为网页标签 <script>", // Tag script
+            //     "id": "side-bar-clip-copy-tag-script",
+            //     "command": "side_bar_copy_tag_script",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "复制为网页标签 <style>", // Tag style
+            //     "id": "side-bar-clip-copy-tag-style",
+            //     "command": "side_bar_copy_tag_style",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-tag-separator"
+            // },
+            {
+                "caption": "项目文件夹列表", // Project Folders
+                "id": "side-bar-clip-copy-project-directories",
+                "command": "side_bar_copy_project_directories",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-clip-copy-project-directories-separator"
+            // },
+            {
+                "caption": "文件内容(UTF-8)", // Content as UTF-8
+                "id": "side-bar-clip-copy-content-utf8",
+                "command": "side_bar_copy_content_utf8",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "文件内容(Data URI)", // Content as Data URI
+            //     "id": "side-bar-clip-copy-content-base-64",
+            //     "command": "side_bar_copy_content_base64",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // }
+        ]
+    },
+
+    {
+        "caption": "粘贴", // Paste
+        "id": "side-bar-clip-paste",
+        "command": "side_bar_paste",
+        "args":
+        {
+            "paths": [],
+            "in_parent": "False"
+        }
+    },
+    {
+        "caption": "粘贴到上级目录", // Paste in Parent
+        "id": "side-bar-clip-paste-in-parent",
+        "command": "side_bar_paste",
+        "args":
+        {
+            "paths": [],
+            "in_parent": "True"
+        }
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-clip-separator"
+    // },
+    {
+        "caption": "复制到…", // Duplicate…
+        "id": "side-bar-duplicate",
+        "command": "side_bar_duplicate",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-duplicate-separator"
+    // },
+
+    {
+        "caption": "重命名", // Rename…
+        "id": "side-bar-rename",
+        "command": "side_bar_rename",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "移动到…", // Move…
+        "id": "side-bar-move",
+        "command": "side_bar_move",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-rename-move-separator"
+    // },
+    {
+        "caption": "删除", // Delete
+        "id": "side-bar-delete",
+        "command": "side_bar_delete",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    {
+        "caption": "清空目录", // Empty
+        "id": "side-bar-empty",
+        "command": "side_bar_empty",
+        "args":
+        {
+            "paths": []
+        }
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-delete-separator"
+    // },
+    {
+        "caption": "刷新列表", // Refresh
+        "id": "side-bar-refresh",
+        "command": "refresh_folder_list"
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-refresh-separator"
+    // },
+    {
+        "caption": "项目管理", // Project
+        "id": "side-bar-project",
+        "children": [
+            {
+                "caption": "编辑项目", // Edit Project
+                "id": "side-bar-project-open-file",
+                "command": "side_bar_project_open_file",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "编辑预览地址", // Edit Preview URLs
+            //     "id": "side-bar-preview-edit-urls",
+            //     "command": "side_bar_preview_edit_urls",
+            //     "args":
+            //     {
+            //         "paths": []
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-project-open-file-separator"
+            // },
+            {
+                "caption": "添加文件夹", // Add Folder to Project…
+                "command": "prompt_add_folder",
+                "mnemonic": "d"
+            },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-promote-as-project-folder-separator"
+            // },
+            {
+                "caption": "链接到根目录", // Promote as Project Folder
+                "id": "side-bar-project-item-add",
+                "command": "side_bar_project_item_add",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            {
+                "caption": "从项目中排除", // Hide From Sidebar (In theory exclude from project)
+                "id": "side-bar-project-item-exclude",
+                "command": "side_bar_project_item_exclude",
+                "args":
+                {
+                    "paths": []
+                }
+            },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-project-item-separator"
+            // },
+            // {
+            //     "id": "side-bar-project-item-exclude-from-index-item",
+            //     "command": "side_bar_project_item_exclude_from_index",
+            //     "args":
+            //     {
+            //         "paths": [],
+            //         "type": "item"
+            //     }
+            // },
+            // {
+            //     "id": "side-bar-project-item-exclude-from-index-relative",
+            //     "command": "side_bar_project_item_exclude_from_index",
+            //     "args":
+            //     {
+            //         "paths": [],
+            //         "type": "relative"
+            //     }
+            // },
+            // {
+            //     "id": "side-bar-project-item-exclude-from-index-directory",
+            //     "command": "side_bar_project_item_exclude_from_index",
+            //     "args":
+            //     {
+            //         "paths": [],
+            //         "type": "directory"
+            //     }
+            // },
+            // {
+            //     "id": "side-bar-project-item-exclude-from-index-file",
+            //     "command": "side_bar_project_item_exclude_from_index",
+            //     "args":
+            //     {
+            //         "paths": [],
+            //         "type": "file"
+            //     }
+            // },
+            // {
+            //     "id": "side-bar-project-item-exclude-from-index-extension",
+            //     "command": "side_bar_project_item_exclude_from_index",
+            //     "args":
+            //     {
+            //         "paths": [],
+            //         "type": "extension"
+            //     }
+            // },
+            // {
+            //     "caption": "-",
+            //     "id": "side-bar-project-item-separator"
+            // },
+            {
+                "caption": "从项目中移除", // Remove Folder from Project
+                "id": "side-bar-project-item-remove-folder",
+                "command": "side_bar_project_item_remove_folder",
+                "args":
+                {
+                    "paths": []
+                }
+            }
+
+        ]
+    },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-donate-separator"
+    // },
+    // {
+    //     "caption": "给我五块钱", // Give 20$
+    //     "command": "side_bar_donate",
+    //     "args":
+    //     {
+    //         "paths": []
+    //     }
+    // },
+    // {
+    //     "caption": "-",
+    //     "id": "side-bar-end-separator"
+    // },
+    // {
+    //     "caption": "zzzzz_side_bar", // zzzzz_side_bar
+    //     "id": "zzzzz_side_bar",
+    //     "command": "zzzzz_side_bar",
+    //     "args":
+    //     {
+    //         "paths": []
+    //     }
+    // },
+]

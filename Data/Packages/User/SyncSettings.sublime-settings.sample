@@ -1,0 +1,26 @@
+{
+	"access_token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+	"auto_upgrade": true,
+	"excluded_files":
+	[
+		".dmg",
+		".DS_Store",
+		".DS_Store?",
+		".exe",
+		".Spotlight-V100",
+		".Trashes",
+		"ehthumbs.db",
+		"Thumbs.db",
+		"oscrypto-ca-bundle.crt",
+		"SyncSettings.sublime-settings",
+		"Package Control.cache",
+		"Package Control.last-run",
+		"Package Control.merged-ca-bundle",
+		"Package Control.system-ca-bundle",
+		"Package Control.user-ca-bundle"
+	],
+	"gist_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+	"included_files":
+	[
+	]
+}
