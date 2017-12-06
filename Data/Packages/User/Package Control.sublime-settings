@@ -11,6 +11,7 @@
 		"HTML-CSS-JS Prettify",
 		"IMESupport",
 		"Modific",
-		"Python PEP8 Autoformat"
+		"Python PEP8 Autoformat",
+		"SublimeLinter"
 	]
 }
