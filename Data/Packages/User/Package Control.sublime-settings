@@ -12,6 +12,7 @@
 		"IMESupport",
 		"Modific",
 		"Python PEP8 Autoformat",
-		"SublimeLinter"
+		"SublimeLinter",
+		"SublimeLinter-flake8"
 	]
 }
