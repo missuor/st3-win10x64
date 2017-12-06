@@ -9,6 +9,7 @@
 		"Generic Config",
 		"GitGutter",
 		"IMESupport",
-		"Modific"
+		"Modific",
+		"Python PEP8 Autoformat"
 	]
 }
