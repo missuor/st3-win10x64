@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"ChineseLocalizations",
+		"Emmet",
 		"Generic Config",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
